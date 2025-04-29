@@ -1,0 +1,17 @@
+{
+    "server": {
+        "port": 8084,
+        "read_timeout": 5,
+        "write_timeout": 10
+    },
+    "backends": [
+        {
+            "url": "http://localhost:8081",
+            "weight": 2
+        },
+        {
+            "url": "http://localhost:8082",
+            "weight": 3
+        }
+    ]
+}
