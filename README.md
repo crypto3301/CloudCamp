@@ -1,4 +1,4 @@
-Сборка и запуск\n
-git clone https://github.com/crypto3301/CloudCamp.git\n
-cd cmd\n
-go run main.go
+Сборка и запуск\
+git clone https://github.com/crypto3301/CloudCamp.git\
+cd cmd\
+go run main.go\
